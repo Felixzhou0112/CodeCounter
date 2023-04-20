@@ -3,7 +3,7 @@
 
 #include <QObject>
 #include <QDir>
-#include <QFileDialog>
+#include <QUrl>
 #include <QDebug>
 #include "stdafx.h"
 
