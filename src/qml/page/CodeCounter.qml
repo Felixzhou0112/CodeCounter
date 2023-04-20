@@ -23,7 +23,6 @@ FluWindow {
         id: code_counter
     }
 
-
     FluButton {
         id: choose_btn
         x: 500
@@ -82,13 +81,11 @@ FluWindow {
 
 
     function caculate(url) {
-        var qurl = Qt.resolvedUrl(url);
+        var qurl = Qt.resolvedUrl(url)
         code_counter.calculateFileLines(qurl)
     }
 
     function choose_files() {
 
     }
-
-
 }

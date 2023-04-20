@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/App.qml</file>
+        <file>qml/page/CodeCounter.qml</file>
+    </qresource>
+</RCC>

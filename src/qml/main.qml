@@ -5,18 +5,18 @@ import QtQuick.Layouts
 import FluentUI
 
 FluWindow {
-    id:app
+    id: app
     width: 640
     height: 480
 
     FluAppBar{
-        id:appbar
+        id: appbar
         width: parent.width
         title: "Hello World"
     }
 
     FluButton{
-        id:btn
+        id: btn
         x: 50; y: 50
         width: 100
         hoverColor: "cyan"

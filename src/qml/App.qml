@@ -12,7 +12,7 @@ Window {
         FluTheme.dark = false
         FluApp.routes = {
 //            "/":"qrc:/page/MainPage.qml",
-            "/codeCounter":"qrc:/page/CodeCounter.qml",
+            "/codeCounter":"qrc:/qml/page/CodeCounter.qml",
         }
         FluApp.initialRoute = "/codeCounter"
         FluApp.run()

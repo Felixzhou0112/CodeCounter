@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
     QQuickStyle::setStyle("Basic");
     QQmlApplicationEngine engine;
     qmlRegisterType<CodeCounter>("Counter", 1, 0, "CodeCounter");
-    const QUrl url(QStringLiteral("qrc:/App.qml"));
+    const QUrl url(QStringLiteral("qrc:/qml/App.qml"));
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
         &app, [url](QObject *obj, const QUrl &objUrl) {
             if (!obj && url == objUrl)
